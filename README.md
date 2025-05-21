@@ -16,7 +16,6 @@ This project implements a CNN-based deep learning model for classifying brain tu
 - [Usage](#usage)
 - [Future Improvements](#future-improvements)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Project Overview
@@ -176,7 +175,7 @@ test_image = image_array.tolist()
 
 # Set up endpoint
 endpoint = aiplatform.Endpoint(
-    endpoint_name="projects/rhic-innovation/locations/us-central1/endpoints/5810194374633455616"
+    endpoint_name="projects/$PROJECT/locations/us-central1/endpoints/5810194374633455616"
 )
 
 # Get prediction
@@ -206,60 +205,6 @@ Potential enhancements for this project include:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+building-powerful-image-classification-models-using-very-little-data.html
 
-## Acknowledgments
-
-- Thanks to TensorFlow and Keras teams for providing the deep learning framework
-- Google Cloud for providing the infrastructure for model deployment
-- Contributors to the brain tumor dataset
-
-<div style="text-align: center">⁂</div>
-
-[^1_1]: Brain_tumor_classification_CNN.pdf
-
-[^1_2]: https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
-
-[^1_3]: https://studymachinelearning.com/keras-imagedatagenerator-with-flow_from_directory/
-
-[^1_4]: https://docs2.w3cub.com/tensorflow~python/tf/keras/preprocessing/image/imagedatagenerator/
-
-[^1_5]: https://www.datacamp.com/tutorial/complete-guide-data-augmentation
-
-[^1_6]: https://github.com/catiaspsilva/README-template
-
-[^1_7]: https://www.youtube.com/watch?v=Rv6UFGNmNZg
-
-[^1_8]: https://deepdatascience.wordpress.com/2016/11/10/documentation-best-practices/
-
-[^1_9]: https://www.archbee.com/blog/readme-document-elements
-
-[^1_10]: https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
-
-[^1_11]: https://github.com/keras-team/keras/issues/3946
-
-[^1_12]: https://github.com/sfbrigade/data-science-wg/blob/master/dswg_project_resources/Project-README-template.md
-
-[^1_13]: https://pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/
-
-[^1_14]: https://deepsense.ai/blog/standard-template-for-machine-learning-projects-deepsense-ais-approach/
-
-[^1_15]: https://keras.io/api/data_loading/image/
-
-[^1_16]: https://hackernoon.com/how-to-create-an-engaging-readme-for-your-data-science-project-on-github
-
-[^1_17]: https://www.cloudthat.com/resources/blog/image-data-augmentation-using-keras-api-imagedatagenerator
-
-[^1_18]: https://medium.datadriveninvestor.com/how-to-write-a-good-readme-for-your-data-science-project-on-github-ebb023d4a50e
-
-[^1_19]: https://stackoverflow.com/questions/70080062/how-to-correctly-use-imagedatagenerator-in-keras
-
-[^1_20]: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-
-[^1_21]: https://github.com/ethen8181/machine-learning/blob/master/README.md
-
-[^1_22]: https://www.youtube.com/watch?v=4ATucrptdYA
-
-[^1_23]: https://data.research.cornell.edu/data-management/sharing/readme/
-
-[^1_24]: https://github.com/mbadry1/Top-Deep-Learning/blob/master/readme.md
 
