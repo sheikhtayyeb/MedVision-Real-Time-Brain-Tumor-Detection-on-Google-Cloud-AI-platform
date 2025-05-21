@@ -47,7 +47,7 @@ brain_tumor/
     └── pituitary/
 ```
 
-The model was trained on 4,003 images and validated on 1,311 images[^1_9].
+The model was trained on 4,003 images and validated on 1,311 images.
 
 ## Installation Requirements
 
@@ -104,7 +104,7 @@ The model includes:
 
 ## Data Augmentation
 
-To improve model robustness and prevent overfitting, we implemented data augmentation using Keras' ImageDataGenerator[^1_10]:
+To improve model robustness and prevent overfitting, we implemented data augmentation using Keras' ImageDataGenerator:
 
 ```python
 train_datagen = ImageDataGenerator(
@@ -119,7 +119,7 @@ train_datagen = ImageDataGenerator(
 )
 ```
 
-These transformations create variations of the training images, effectively expanding the dataset and helping the model generalize better to unseen data[^1_5].
+These transformations create variations of the training images, effectively expanding the dataset and helping the model generalize better to unseen data.
 
 ## Training Process
 
