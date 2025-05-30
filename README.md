@@ -204,7 +204,6 @@ Potential enhancements for this project include:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-building-powerful-image-classification-models-using-very-little-data.html
+This project is licensed under the MIT License 
 
 
