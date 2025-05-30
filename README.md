@@ -46,7 +46,7 @@ brain_tumor/
     ├── notumor/
     └── pituitary/
 ```
-
+Dataset link: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?select=Training
 The model was trained on 4,003 images and validated on 1,311 images.
 
 ## Installation Requirements
